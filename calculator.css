@@ -10,7 +10,7 @@
   background-color: orange;
 }
 
-.box .col {
+.col {
   height: 100%;
   aspect-ratio: 1 / 1;
 }
@@ -33,9 +33,6 @@
 }
 
 @media (max-width: 576px) {
-  .box {
-    width: 80vw;
-  }
   #result {
     font-size: 4rem;
   }
