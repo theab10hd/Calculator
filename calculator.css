@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", system-ui;
 }
 
@@ -44,7 +45,7 @@
 
 @media (min-width: 576px) {
   .box {
-    width: 80vw;
+    width: 50vw;
   }
   #result {
     font-size: 4rem;
